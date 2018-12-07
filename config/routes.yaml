@@ -1,3 +1,8 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+
+artists:
+    type:     rest
+    resource: App\Controller\ArtistsController
+
+albums:
+    type:     rest
+    resource: App\Controller\AlbumController
